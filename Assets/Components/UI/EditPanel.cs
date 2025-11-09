@@ -35,6 +35,8 @@ public class EditPanel : MonoBehaviour
                 this.createButton.SetActive(true);
                 this.idInput.text = "---";
 
+                this.nameInput.text = "";
+                this.dataJson.text = "";
                 this.text.text = "ADD NEW DATA";
                 
                 this.updateButton.onClick.AddListener(() =>
